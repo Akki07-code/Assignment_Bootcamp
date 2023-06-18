@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+  <style>
+    /* CSS code for the photo gallery */
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gallery-image {
+      border: 2px dotted #333;
+      margin: 10px;
+      transition: border-color 0.3s ease;
+    }
+
+    .gallery-image:hover {
+      border-color: #f00;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery-container">
+    <img class="gallery-image" src="image1.jpg" alt="Image 1">
+    <img class="gallery-image" src="image2.jpg" alt="Image 2">
+    <img class="gallery-image" src="image3.jpg" alt="Image 3">
+    <!-- Add more images as needed -->
+  </div>
+</body>
+</html>

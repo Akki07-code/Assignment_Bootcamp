@@ -17,6 +17,7 @@ public class FindDuplicates {
 
         return duplicates;
     }
+//This is the changed file
 
     public static void main(String[] args) {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};

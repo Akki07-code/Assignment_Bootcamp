@@ -35,3 +35,4 @@ public class MajorityElement {
         System.out.println(result); // Output: 5
     }
 }
+//This change is made 
